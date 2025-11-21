@@ -1,7 +1,7 @@
 @keyframes colorAnimation {
-    0% { background-color: rgb(29, 18, 110); }
-    50% { background-color: rgb(19, 11, 75); }
-    100% { background-color: rgb(29, 18, 110); }
+    0% { background-color: rgb(110, 18, 18); }
+    50% { background-color: rgb(75, 11, 11); }
+    100% { background-color: rgb(110, 18, 18); }
 }
 
 .background {
