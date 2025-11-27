@@ -29,5 +29,13 @@
     background: url("button.png") no-repeat center center;
     background-size: cover;
     border: none;
-    /* cursor: pointer; */
+}
+
+.score-text {
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }

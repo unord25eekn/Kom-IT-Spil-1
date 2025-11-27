@@ -1,13 +1,16 @@
+let score = 0
+
 function squareClicked() {
-    // Fire confetti burst
     confetti({
         particleCount: 200,
         spread: 145,
-        origin: { y: 0.6 }
+        origin: { y: 0.4 }
     });
 
-    // Falling effect
-    let duration = 2 * 1000; // 2 seconds
+    score += 1
+    document.querySelector(".score-text").textContent = score;
+
+    let duration = 2 * 1000;
     let end = Date.now() + duration;
 
     (function frame() {
